@@ -1,227 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Software Engineer Portfolio</title>
-
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-body {
-    line-height: 1.6;
-    background: #f5f7fa;
-    color: #333;
-}
-nav {
-    background: #0a192f;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 40px;
-    position: sticky;
-    top: 0;
-}
-nav ul {
-    list-style: none;
-    display: flex;
-}
-nav ul li {
-    margin-left: 25px;
-}
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-}
-nav a:hover {
-    color: #64ffda;
-}
-.section {
-    padding: 70px 40px;
-    text-align: center;
-}
-.hero {
-    background: linear-gradient(to right, #0a192f, #112240);
-    color: white;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.hero h1 {
-    font-size: 42px;
-    margin-bottom: 10px;
-}
-.hero p {
-    font-size: 20px;
-    max-width: 700px;
-}
-.btn {
-    margin-top: 20px;
-    padding: 12px 25px;
-    background: #64ffda;
-    color: #0a192f;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-}
-.btn:hover {
-    background: #52e0c4;
-}
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
-    margin-top: 30px;
-}
-.card {
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-.card h3 {
-    margin-bottom: 10px;
-    color: #0a192f;
-}
-.skills {
-    background: #ffffff;
-}
-footer {
-    background: #0a192f;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-</style>
-</head>
-
-<body>
-
-<!-- Navbar -->
-<nav>
-    <h2>Ahmed Hassan</h2>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-
-<!-- Hero Section -->
-<section id="home" class="section hero">
-    <h1>Software Engineer | Data | AI | ML</h1>
-    <p>
-        MSc Data Analytics Graduate seeking opportunities as a Software Developer, 
-        QA Engineer, Data Engineer, or Technical Support Engineer. 
-        Strong foundation in Object-Oriented Programming, APIs, Cloud Systems, and Machine Learning.
-    </p>
-    <a href="#contact" class="btn">Contact Me</a>
-</section>
-
-<!-- About Section -->
-<section id="about" class="section">
-    <h2>About Me</h2>
-    <p style="max-width: 900px; margin: auto; margin-top: 20px;">
-        I am an MSc Data Analytics graduate with 2+ years of experience in technical support, 
-        software debugging, API integrations, and cloud-based systems. I have a strong background 
-        in Object-Oriented Programming and hands-on experience working with REST APIs, SDKs, 
-        web technologies, and data-driven applications. 
-        I am passionate about building scalable software solutions, automation tools, and 
-        intelligent systems using AI, Machine Learning, and cloud platforms like AWS and Azure.
-    </p>
-</section>
-
-<!-- Skills Section -->
-<section id="skills" class="section skills">
-    <h2>Technical Skills</h2>
-    <div class="grid">
-
-        <div class="card">
-            <h3>Programming & OOP</h3>
-            <p>Python, C++, JavaScript, PHP, Ruby, SQL</p>
-        </div>
-
-        <div class="card">
-            <h3>AI, ML & Data</h3>
-            <p>Machine Learning, Data Analytics, Pandas, NumPy, Matplotlib, Seaborn</p>
-        </div>
-
-        <div class="card">
-            <h3>Web & Software Development</h3>
-            <p>HTML, CSS, JavaScript, Bootstrap, Flask, FastAPI</p>
-        </div>
-
-        <div class="card">
-            <h3>APIs & Integrations</h3>
-            <p>REST APIs, SDKs, Webhooks, Postman, Debugging, Chrome DevTools</p>
-        </div>
-
-        <div class="card">
-            <h3>Cloud Platforms</h3>
-            <p>AWS (RDS, EC2, CloudWatch), Azure (Data Factory, Blob Storage, DevOps)</p>
-        </div>
-
-        <div class="card">
-            <h3>Databases</h3>
-            <p>MySQL, PostgreSQL, MongoDB, Oracle, Firebase, Azure SQL</p>
-        </div>
-
-    </div>
-</section>
-
 <!-- Projects Section -->
 <section id="projects" class="section">
-    <h2>Academic & Professional Projects</h2>
+    <h2>Projects & Real-World Experience</h2>
     <div class="grid">
 
         <div class="card">
-            <h3>Wildfire Prediction (MSc Dissertation)</h3>
-            <p>Built machine learning models to predict wildfire occurrences using weather datasets and comparative ML analysis.</p>
+            <h3>Polygon EHR System (Real-World Application)</h3>
+            <p>
+                Contributed to a real-world healthcare application (Polygon EHR) during training. 
+                Performed API testing and functional testing of application endpoints, validated 
+                workflows, and analyzed system behavior using debugging tools. Gained hands-on 
+                experience in enterprise-level software development, QA processes, and production systems.
+            </p>
         </div>
 
         <div class="card">
-            <h3>Enterprise Data Pipeline</h3>
-            <p>Developed Python-based data pipeline using BeautifulSoup and MongoDB for structured data extraction and analysis.</p>
+            <h3>Wildfire Prediction – MSc Dissertation (AI/ML)</h3>
+            <p>
+                Built and compared multiple machine learning models (Logistic Regression, Random Forest, 
+                Gradient Boosting, SVM) to forecast wildfire occurrences using meteorological datasets. 
+                Implemented full ML pipeline including preprocessing, training, and evaluation using Python.
+            </p>
         </div>
 
         <div class="card">
-            <h3>SQL Dashboard & Reporting</h3>
-            <p>Optimized SQL queries (CTEs, Views) and built BI dashboards using Power BI and reporting tools.</p>
+            <h3>Enterprise Data Pipeline Development</h3>
+            <p>
+                Developed a Python-based data pipeline using BeautifulSoup and MongoDB to extract, 
+                transform, and store structured data for analytics. Included log analysis, debugging, 
+                and performance optimization for large datasets.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Data Warehouse – Twiga Foods</h3>
+            <p>
+                Designed a data warehouse solution using SQL Server, Python, and SSIS. Integrated 
+                Neo4j for graph analytics and built BI-ready datasets for reporting and decision-making.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Enterprise Form Rollout – Mobile SDK Integration</h3>
+            <p>
+                Spearheaded SDLC for enterprise mobile form system supporting field engineers. 
+                Worked with REST APIs, mobile SDK integrations, and technical documentation 
+                to improve system efficiency and accuracy.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>SQL Dashboards & Reporting Systems</h3>
+            <p>
+                Optimized complex SQL queries (CTEs, Views) and developed reporting dashboards 
+                using Power BI, Tableau, and Stimulsoft to visualize enterprise data and 
+                identify workflow inefficiencies.
+            </p>
         </div>
 
         <div class="card">
             <h3>API Integration & Debugging Tools</h3>
-            <p>Worked on REST APIs, SDK integrations, log analysis, and automation scripts for system diagnostics and troubleshooting.</p>
+            <p>
+                Built internal diagnostic scripts using Python and JavaScript to debug REST APIs, 
+                SDKs, and webhooks. Performed root cause analysis using logs, Postman, and Chrome DevTools 
+                to resolve integration issues in SaaS environments.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Real-World Training: Software Development & QA</h3>
+            <p>
+                Completed hands-on training in real-world application development focusing on 
+                Object-Oriented Programming, API testing, functional testing, debugging, and 
+                software lifecycle practices. Worked with production-style systems, endpoints, 
+                and test validation workflows.
+            </p>
         </div>
 
     </div>
 </section>
-
-<!-- Contact Section -->
-<section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: muhammadahmedhassan60@gmail.com</p>
-    <p>Phone: +353 89 408 4991</p>
-    <p>LinkedIn: linkedin.com/in/muhammad-ahmed-hassan</p>
-    <p style="margin-top: 15px;">
-        Open to roles: Software Developer, QA Engineer, Data Engineer, Technical Support Engineer
-    </p>
-</section>
-
-<!-- Footer -->
-<footer>
-    <p>© 2026 Ahmed Hassan | Software Engineer Portfolio</p>
-</footer>
-
-</body>
-</html>
